@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "Bash(curl -sL \"https://api.github.com/repos/Jivaish/obgyn-faculty-tool/git/trees/HEAD?recursive=1\")",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -sL -o app_existing.py \"https://raw.githubusercontent.com/Jivaish/obgyn-faculty-tool/main/app.py\")",
+      "Bash(curl -sL -o README_existing.md \"https://raw.githubusercontent.com/Jivaish/obgyn-faculty-tool/main/README.md\")",
+      "Bash(curl -sL -o req_existing.txt \"https://raw.githubusercontent.com/Jivaish/obgyn-faculty-tool/main/requirements.txt\")",
+      "Bash(git clone *)",
+      "Bash(python3 -c \"import streamlit,bs4,pandas,requests;print\\('deps ok'\\)\")",
+      "Bash(python3 -m pytest --version)",
+      "Bash(awk '{print $3, $4, $11, $12, $13}')",
+      "Bash(curl -s http://localhost:8501/healthz)"
+    ]
+  }
+}
